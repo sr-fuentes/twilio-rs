@@ -10,6 +10,7 @@ pub const GET: Method = Method::GET;
 pub const POST: Method = Method::POST;
 pub const PUT: Method = Method::PUT;
 
+#[derive(Debug)]
 pub struct TwilioClient {
     account_id: String,
     auth_token: String,
